@@ -1,3 +1,12 @@
+/**
+ * ParityRegression - parità dei widget Android con la logica iOS di NOVA.
+ *
+ * Esegue controlli su dati finti: una lezione trovata nello slot corrente,
+ * il compito del weekend assegnato a lunedì (ven/sab/dom -> 2026-10-26) e
+ * memorizzazione+cancellazione del timer nelle SharedPreferences.
+ * Poi fissa sulla home tutti e cinque i widget (Orario, Oggi, Fine, Compiti,
+ * Calendar) e fallisce se anche uno solo non risulta agganciato.
+ */
 package site.federicotaranu.nova;
 import android.app.*;import android.appwidget.*;import android.os.*;import android.content.*;import android.view.accessibility.*;import org.json.*;import java.util.*;
 public class ParityRegression extends Instrumentation {
