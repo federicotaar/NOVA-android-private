@@ -1,3 +1,12 @@
+/**
+ * BridgeRegression - verifica il ponte JS-nativo `nat` dell'app NOVA.
+ *
+ * Controlla che postWebMessage consegni l'origin corretto alla WebView e che
+ * la validazione lato nativo risponda come atteso con dati sintetici:
+ * chiave Groq non valida -> errore "formato", login Classeviva vuoto ->
+ * errore "dati", nat('groq','has') -> ok. Apre poi il dialog impostazioni e
+ * precompila il campo chiave. Nessun dato reale viene mai inviato.
+ */
 package site.federicotaranu.nova;
 import android.app.*;import android.os.*;import android.content.*;import android.net.Uri;import android.webkit.*;import java.util.concurrent.*;
 public class BridgeRegression extends Instrumentation {
