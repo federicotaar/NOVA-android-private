@@ -1,3 +1,13 @@
+/**
+ * WidgetRegression - instrumentazione sintetica per i widget NOVA.
+ *
+ * Avvia MainActivity, inserisce dati finti (lezione di Informatica in corso,
+ * un compito e un evento per oggi) e prova ad aggiungere alla home i provider
+ * NovaWidget e CalendarWidget tramite requestPinAppWidget, accettando il
+ * dialog di sistema. Per ogni widget salva in un Bundle l'esito del pin e
+ * l'albero di accessibilità di dialog e home, più screenshot PNG.
+ * Termina con RESULT_OK solo se il flusso si completa senza eccezioni.
+ */
 package site.federicotaranu.nova;
 import android.app.*;import android.appwidget.*;import android.os.*;import android.content.*;import android.view.accessibility.*;import org.json.*;import java.util.*;
 public class WidgetRegression extends Instrumentation {
