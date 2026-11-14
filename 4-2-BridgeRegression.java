@@ -1,3 +1,12 @@
+/**
+ * BridgeRegression (variante 4.2) - regressione approfondita del bridge.
+ *
+ * Registra versione del WebView e stato iniziale del DOM, salta l'onboarding
+ * in modo sintetico, verifica gli errori di validazione del bridge `nat` e
+ * ispeziona il dialog impostazioni (errori JS, metriche CSS, dvh).
+ * Infine inietta un tocco reale sul campo chiave Groq calcolando le
+ * coordinate dallo schermo e cattura uno screenshot della tastiera.
+ */
 package site.federicotaranu.nova;
 import android.app.*;import android.os.*;import android.content.*;import android.net.Uri;import android.webkit.*;import java.util.concurrent.*;
 public class BridgeRegression extends Instrumentation {
