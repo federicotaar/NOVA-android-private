@@ -1,3 +1,12 @@
+/**
+ * ParityVerified - parità finale con rendering di contenuti lunghi.
+ *
+ * Ripete i controlli di parità (bridge, slot, weekend, timer, cinque widget
+ * agganciati) e poi carica una settimana fitta: cinque lezioni e quattro
+ * compiti finti. Renderizza le RemoteViews dei widget Oggi e Compiti dentro
+ * un FrameLayout e cattura screenshot per verificare che testi lunghi e
+ * liste non rompano il layout.
+ */
 package site.federicotaranu.nova;
 import android.app.*;import android.appwidget.*;import android.os.*;import android.content.*;import android.view.accessibility.*;import org.json.*;import java.util.*;
 public class ParityVerified extends Instrumentation {
