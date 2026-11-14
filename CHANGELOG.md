@@ -4,6 +4,11 @@ Storia delle regressioni sintetiche Android di NOVA, dalle più recenti.
 
 ## 2026-11-14
 
+- Rimossa la copia obsoleta del workflow widget finita per errore in
+  `.github/workflows/.github/workflows/`: GitHub non la eseguiva, ma restava
+  una seconda versione non allineata del controllo.
+- SUPPORT.md: politica di supporto (sole segnalazioni di bug) e come segnalare.
+- Template issue per bug e richieste di funzione.
 - README: link aggiornati dopo la rinomina dell'account GitHub in `federicotaar`.
 - Documentazione Javadoc in testa a ogni harness di regressione.
 
