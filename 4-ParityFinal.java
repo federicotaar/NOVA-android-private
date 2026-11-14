@@ -1,3 +1,12 @@
+/**
+ * ParityFinal - giro completo di parità widget + callback del bridge nativo.
+ *
+ * Oltre ai controlli di ParityRegression (slot lezione, compito del weekend,
+ * timer), valida che le callback asincrone del bridge `nat` restituiscano gli
+ * errori attesi ("formato" per la chiave Groq sintetica, "dati" per il login
+ * Classeviva vuoto), con polling su CountDownLatch. Fallisce se i cinque
+ * widget non sono tutti agganciati alla home.
+ */
 package site.federicotaranu.nova;
 import android.app.*;import android.appwidget.*;import android.os.*;import android.content.*;import android.view.accessibility.*;import org.json.*;import java.util.*;
 public class ParityFinal extends Instrumentation {
