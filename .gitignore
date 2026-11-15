@@ -1,0 +1,23 @@
+# Build output
+build/
+*.class
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Firma: la chiave e il file password non finiscono MAI nel repository
+*.keystore
+*.jks
+NOVA_KEYPASS_FILE
+
+# OS
+.DS_Store
+Thumbs.db
