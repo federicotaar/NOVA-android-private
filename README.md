@@ -77,6 +77,10 @@ Pacchetto: `site.federicotaranu.nova`. Minimo dichiarato: Android 8.0 / API 26. 
 
 La release contiene un solo file caricato: l'APK. GitHub aggiunge automaticamente i collegamenti agli archivi del codice. Gli ZIP nella scheda Codice sono versioni storiche di sviluppo, non il download da installare.
 
+## Segnalazioni e modifiche
+
+NOVA e' finita: sono aperte solo segnalazioni di bug. Come segnalare e cosa aspettarsi: [SUPPORT.md](SUPPORT.md). Le modifiche piu' recenti sono in [CHANGELOG.md](CHANGELOG.md).
+
 ## Build
 
 Il progetto usa Java e Android SDK. La chiave di firma e il file della password non appartengono al repository. La build richiede i percorsi privati `NOVA_KEYSTORE` e `NOVA_KEYPASS_FILE`.
