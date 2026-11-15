@@ -1,3 +1,7 @@
+# Regression harness for the Android JS-to-native bridge. Runs when the project
+# # zip, a BridgeRegression harness or this workflow changes, plus manual
+# # dispatch. Boots an API 35 emulator on Ubuntu.
+
 name: Android native bridge regression
 on:
   push:
