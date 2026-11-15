@@ -1,3 +1,7 @@
+# Widget parity verification: runs when the final parity harness
+# # (6-ParityVerified.java) or this workflow changes, plus manual dispatch.
+# # Boots an API 30 emulator on Ubuntu.
+
 name: Android parity verification
 on:
   push:
