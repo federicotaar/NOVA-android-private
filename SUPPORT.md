@@ -8,6 +8,13 @@ Apri una issue descrivendo cosa è successo, la versione dell'app, la
 versione di Android e i passi per riprodurre. Non incollare mai credenziali
 o dati dei servizi scolastici.
 
+## Riproduzione minima
+
+Aggiungi passaggi numerati, risultato atteso e risultato osservato. Specifica
+se il problema compare sempre, solo dopo un aggiornamento, a schermo spento
+o quando l'app è in background. Usa dati fittizi se il problema si riproduce
+anche senza informazioni personali.
+
 ## Cosa aspettarsi
 
 - Le verifiche automatiche coprono il bridge nativo e la parità del widget:
