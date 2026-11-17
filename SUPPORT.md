@@ -15,6 +15,12 @@ se il problema compare sempre, solo dopo un aggiornamento, a schermo spento
 o quando l'app è in background. Usa dati fittizi se il problema si riproduce
 anche senza informazioni personali.
 
+## Screenshot e log
+
+Oscura nomi, voti, orario scolastico, posizione e conversazioni prima di
+pubblicare allegati. Non caricare backup dell'account o log che contengano
+token. Una issue pubblica non è un canale per inviare credenziali.
+
 ## Cosa aspettarsi
 
 - Le verifiche automatiche coprono il bridge nativo e la parità del widget:
