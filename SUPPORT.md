@@ -26,5 +26,8 @@ token. Una issue pubblica non è un canale per inviare credenziali.
 - Le verifiche automatiche coprono il bridge nativo e la parità del widget:
   un bug che appare solo sul tuo telefono va segnalato con più dettagli
   possibile (modello, versione Android).
+- Per widget o promemoria indica stato dei permessi e risparmio energetico,
+  senza cambiare impostazioni a caso. Non cancellare dati o disinstallare
+  prima di aver verificato i salvataggi e annotato la versione precedente.
 - Nessuna nuova funzione è in programma: le segnalazioni di bug hanno la
   priorità, le richieste di funzioni vengono lette ma non pianificate.
